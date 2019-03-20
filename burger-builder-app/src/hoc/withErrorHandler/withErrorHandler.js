@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Modal from "../../components/UI/Modal/Modal";
-import Aux from "../Aux_/Aux";
+import Aux from "../Aux_/Aux_";
 const withErrorHandler = (WrappedComponent, axios) => {
     return class extends Component {
         state = {

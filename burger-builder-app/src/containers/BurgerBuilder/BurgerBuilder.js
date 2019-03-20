@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from "react-redux";
 import * as actions from "../../store/actions/index"; //pointing index.js file of action
-import Aux from '../../hoc/Aux_/Aux';
+import Aux from '../../hoc/Aux_/Aux_';
 import withErrorHandler from '../../hoc/withErrorHandler/withErrorHandler';
 import Burger from "../../components/Burger/Burger";
 import BulidControls from '../../components/Burger/BulidControls/BulidControls';
