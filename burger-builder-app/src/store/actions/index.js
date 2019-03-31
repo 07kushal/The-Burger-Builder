@@ -10,3 +10,11 @@ export {
     // purchaseBurgerFail,
     // purchaseBurgerSuccess
 } from './order';
+
+
+export {
+    authStart,
+    authSuccess,
+    authFailed,
+    auth
+} from './auth';
